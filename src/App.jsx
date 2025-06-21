@@ -4,7 +4,6 @@ import { Layout } from "antd";
 import { Content } from "antd/es/layout/layout";
 import React, { useEffect, useState } from "react";
 
-
 // 根据时间计算 HSL 值，返回背景色
 function getBackgroundColorByTime(hour) {
   // 将时间映射到 HSL 的 hue 色相（从210到40度之间）
