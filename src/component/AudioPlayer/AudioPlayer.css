@@ -1,0 +1,24 @@
+.interact-button{
+    display: flex;
+    gap: 10px;
+    align-self: center;
+}
+
+.play-pause-button{
+    max-width: 60%;
+}
+
+.volume-slider {
+    flex: 1; /* 占据剩余空间 */
+}
+
+.AudioPlayer {
+    width: 50vw;
+    align-items: center;
+    flex-direction: column; /* 设置主轴为上下方向 */
+}
+
+.audio-name{
+    align-items: center;
+    flex: 1;
+}
