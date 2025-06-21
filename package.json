@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "generate:audio": "node generate-audio-index.cjs",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run generate:audio && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
